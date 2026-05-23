@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h2>Click below to continue</h2>
-  <a href="https://world.org">Go to World</a>
+<script>
+// Open world.org in same tab with referrer set via window.open
+let w = window.open("https://world.org", "_self");
+</script>
+<a href="https://world.org" referrerpolicy="unsafe-url">Click here</a>
 </body>
 </html>
